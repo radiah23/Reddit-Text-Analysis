@@ -3,7 +3,7 @@
 ## Overview
 This project explores sentiment analysis and topic modeling on **1,000 Reddit posts** from the subreddit **r/MyBoyfriendIsAI**, applying machine learning and deep learning techniques using PyTorch.
 
-The objective is to understand emotional expression patterns and thematic structure in AI relationship discussions.
+The objective is to understand emotional expression patterns and thematic structure in AI relationship discussions. 
 
 
 ## Methods
@@ -13,9 +13,9 @@ The objective is to understand emotional expression patterns and thematic struct
 - **Sentiment Analysis** using NLTK’s `SentimentIntensityAnalyzer`
 - **Deep Embedding Clustering (DEC)** using a Variational Autoencoder (VAE) for latent space representation
 - **Dimensionality Reduction**
-  - PCA – reduces noise and improves efficiency
-  - t-SNE – effective for small datasets
-  - UMAP – faster and more suitable for large datasets (chosen as primary)
+  - PCA 
+  - t-SNE 
+  - UMAP 
 - **LDA Topic Modeling** using Gensim for extracting dominant themes
 
 ## Project Context
