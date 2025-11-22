@@ -1,21 +1,27 @@
-Text Analysis of r/MyBoyfriendIsAI
-Overview
-This project analyzes 1,000 Reddit posts from the community r/MyBoyfriendIsAI, exploring sentiment trends and thematic patterns using PyTorch and various machine learning techniques.
-Our goal was to understand public discourse around AI companionship, evaluate emotional tone, and investigate emerging themes using modern NLP tools.
+# Text Analysis of r/MyBoyfriendIsAI
 
-Methods Used
-K-Means Clustering using PyTorch tensors + CountVectorizer
-Sentiment Analysis using NLTK’s SentimentIntensityAnalyzer
-Deep Embedding Clustering (DEC) with a Variational Autoencoder (VAE) for latent space learning
-Dimensionality Reduction Comparison:
-PCA (noise reduction, speed optimization)
-t-SNE (high-quality cluster visualization on smaller data)
-UMAP (fast, well-suited for large datasets)
-LDA Topic Modeling with gensim for thematic extraction
+## Overview
+This project explores sentiment analysis and topic modeling on **1,000 Reddit posts** from the subreddit **r/MyBoyfriendIsAI**, applying machine learning and deep learning techniques using PyTorch.
 
-Project Context
-This work was completed as part of the Data Infrastructure Group Lab, with the objective of gaining hands-on experience in:
-PyTorch for text-based ML
-Representation learning
-Clustering algorithms
-Real-world NLP applications
+The objective is to understand emotional expression patterns and thematic structure in AI relationship discussions.
+
+
+## Methods
+
+### Machine Learning & NLP Techniques
+- **K-Means Clustering** using PyTorch tensors and `CountVectorizer`
+- **Sentiment Analysis** using NLTK’s `SentimentIntensityAnalyzer`
+- **Deep Embedding Clustering (DEC)** using a Variational Autoencoder (VAE) for latent space representation
+- **Dimensionality Reduction**
+  - PCA – reduces noise and improves efficiency
+  - t-SNE – effective for small datasets
+  - UMAP – faster and more suitable for large datasets (chosen as primary)
+- **LDA Topic Modeling** using Gensim for extracting dominant themes
+
+## Project Context
+This work was developed as part of the **Data Infrastructure Group lab**, with the aim of gaining practical experience in:
+- PyTorch-based text analysis
+- Unsupervised clustering methods
+- Dimensionality reduction and embedding space visualization
+- Sentiment extraction and topic inference
+
